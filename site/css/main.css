@@ -159,7 +159,7 @@ body {
 
 .btn {
   font-family: "Source Sans Pro SemiBold";
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   font-weight: 400;
   line-height: 37px;
@@ -220,8 +220,8 @@ body {
     width: 30px;
   }
   .btn {
-    width: 150px;
-    font-size: 18px;
+    width: 140px;
+    font-size: 16px;
   }
   __btn {
     font-size: 18px;
