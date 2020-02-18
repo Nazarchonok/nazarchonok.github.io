@@ -200,7 +200,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 768px) {
   .container {
-    max-width: 320px;
+    max-width: 70vw;
     margin: 0 auto;
   }
   #menu {
@@ -213,31 +213,26 @@ body {
   }
   .navbar__btn {
     font-size: 15px;
-    padding: 5px 15px;
-  }
-  .navbar__btn:nth-child(2) {
-    padding: 5px 30px;
   }
   .navbar__button {
-    font-size: 15px;
-    width: 120px;
-    height: 30px;
+    font-size: 20vh;
     text-align: center;
   }
   .excursions-list__item {
     line-height: 10px;
   }
   .excursions-block {
-    width: 320px;
-    height: 150px;
-    border-radius: 5px;
+    width: 70vw;
+    height: 35vh;
+    border-radius: 3vh;
   }
   .excursions-block::before {
-    border-radius: 5px;
+    border-radius: 3vh;
+    height: 35vh;
+    width: 70vw;
   }
   .excursions-block__title {
-    font-size: 22px;
-    line-height: 10px;
+    font-size: 140%;
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 16px;
     padding-left: 21px;
@@ -248,7 +243,7 @@ body {
   .excursions-block__text {
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
+    margin-top: 5vh;
     padding-left: 14px;
     z-index: 0;
   }
@@ -258,7 +253,7 @@ body {
   }
   .description {
     padding-left: 6px;
-    font-size: 12px;
+    font-size: 75%;
     line-height: 26px;
   }
   .btn {
