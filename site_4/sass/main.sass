@@ -70,22 +70,22 @@ body
         z-index: 0
         &:first-child
             background: url(../img/background-1.jpg) no-repeat
-            background-size: 100%
+            background-size: cover
         &:nth-child(2)
             background: url(../img/background-2.jpg) no-repeat
-            background-size: 100%
+            background-size: cover
         &:nth-child(3)
             background: url(../img/background-3.jpg) no-repeat
-            background-size: 100%
+            background-size: cover
         &:nth-child(4)
             background: url(../img/background-1.jpg) no-repeat
-            background-size: 100%
+            background-size: cover
         &:nth-child(5)
             background: url(../img/background-2.jpg) no-repeat
-            background-size: 100%
+            background-size: cover
         &:nth-child(6)
             background: url(../img/background-3.jpg) no-repeat
-            background-size: 100%
+            background-size: cover
         &::before
             content: ''
             display: block
@@ -154,65 +154,65 @@ body
 
 @media ( min-width: 320px ) and ( max-width: 768px )
     .container
-        max-width: 70vw
+        max-width: 80vw
         margin: 0 auto
     #menu
-        height: 29px
-        width: 106px
+        font-size: 4vw
+        width: 35vw
+        height: 10vw
     .navbar
         display: flex
         justify-content: space-between
         &__btn
-            font-size: 15px
-            
+            font-size: 4vw
+            width: 35vw
         &__button
-            font-size: 20vh
-            
+            font-size: 20vw
             text-align: center
     .excursions
         &-list
             &__item
                 line-height: 10px
         &-block
-            width: 70vw
-            height: 35vh
+            width: 80vw
+            height: 35vw
             border-radius: 3vh
             &::before
                 border-radius: 3vh
-                height: 35vh
-                width: 70vw
+                height: 35vw
+                width: 80vw
             &__title
                 font-size: 140%
                 font-family: 'Source Sans Pro', sans-serif
-                padding-top: 16px
-                padding-left: 21px
-                padding-right: 8px
+                padding-top: 2vw
+                padding-left: 5vw
+                padding-right: 3vw
                 line-height: 20px
                 z-index: 0
             &__text
                 display: flex
                 justify-content: space-between
-                margin-top: 5vh
+                margin-top: 2vw
                 padding-left: 14px
                 z-index: 0
     .icon
-        width: 25px
-        padding-left: 10px
+        width: 5vw
+        padding-left: 1vw
     .description
-        padding-left: 6px
-        font-size: 75%
-        line-height: 26px
+        padding-left: 1vw
+        font-size: 3vw
+        line-height: 20px
     .btn
+        vertical-align: bottom
         line-height: 0px
-        width: 80px
-        height: 20px
-        padding-bottom: 
-        font-size: 8px
+        width: 22vw
+        height: 5vw
+        font-size: 2.5vw
         text-align: center
-        margin-bottom: 5px
+        margin-bottom: 2vw
         text-align: center
     .buttons
-        padding-right: 9px
+        padding-right: 2px
     .footer
         padding-bottom: 40px
     
