@@ -12,19 +12,54 @@
     <meta name=" theme-color" content="#f00">
 </head>
 <body>
-
-    <div class="app">
-        <div class="header">
+    <div class="app" style="display: none;">
+        <div class="header header-bg">
             <img src="img/logo.svg" alt="Logo" class="app__logo">
         </div>
 
-        <div class="content">
+        <div class="content container">
             <h1 class="content__title">Herzlich Willkommen</h1>
-            <button class="btn">anmelden</button>
+            <button class="btn"><a href="auth.html">anmelden</a></button>
         </div>
-
     </div>
-
+    <div class="app-slide-2" style="display: none;">
+        <div class="bar">
+            <img src="img/back.svg" alt="" class="back">
+            <span class="bar__title">Bundesland wahlen</span>
+        </div>
+        <div class="content">
+            <ul class="list">
+                <li>Burgenland</li>
+                <li>Kärnten</li>
+                <li>Niederösterreich/Wien</li>
+                <li>Oberösterreich</li>
+                <li>Salzburg</li>
+                <li>Steiemark</li>
+                <li>Tirol</li>
+                <li>Voralberg</li>
+                <li>Kärnten/Posojilnica Bank</li>
+                <li>Tirol/Jungholz/Alpenbank</li>
+            </ul>
+        </div>
+    </div>
+    <div class="app app-slide-3">
+        <div class="bar">
+            <img src="img/back.svg" alt="back" class="back">
+            <span class="bar__title">Login</span>
+        </div>
+        <div class="content">
+            <div class="content__text">
+                <p class="content__descr">Die letzten 8 Stellen lhrer Verfugernummer</p>
+                <div class="input-block">
+                    <span class="input-label">elvie-38-v</span>
+                    <input type="text" class="input">
+                </div>
+                </div>
+                    <button class="btn btn-grey">Weirten</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/main.js"></script>
     
 </body>
